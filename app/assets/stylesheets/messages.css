@@ -12,6 +12,25 @@
 .side-header {
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  background-color: #253141;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_name a {
+  font-size: 16px;
+  background-color: #253141;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.make_room a {
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .rooms {
@@ -19,6 +38,16 @@
   width: 300px;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room_name {
+  text-decoration: none;
+  color: white;
 }
 
 /* 以下チャット画面 */
